@@ -1,0 +1,11 @@
+{
+  "name": "management",
+  "scripts": {
+    "admin-dev": "npm run dev -w admin",
+    "server-dev": "npm run dev -w server"
+  },
+  "workspaces": [
+    "packages/admin",
+    "packages/server"
+  ]
+}
